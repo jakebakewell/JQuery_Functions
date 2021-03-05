@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#wrapper{
+    width: 1200px;
+    margin: auto;
+    background-color: #c2fdff;
+    padding: 30px;
+}
+#header{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#header p{
+    margin-top: 10px;
+}
+#p_one{
+    display: none;
+}
+#sasuke{
+    width: 300px;
+    height: 200px;
+}
+#naruto{
+    align-items: center;
+    margin-top: 40px;
+}
+#nav_bar{
+    background-color: #e9585b;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    margin-top: 15px;
+}
+#nav_bar a{
+    text-decoration: none;
+    color: black;
+}
+#about{
+    width: 800px;
+    align-items: center;
+    margin-left: 200px;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #e9585b;
+    border-radius: 5px;
+}
+#about h3{
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+#minato{
+    width: 820px;
+    margin-left: 190px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: 5px solid #e9585b;
+    border-radius: 5px;
+}
+#abilities{
+    display: flex;
+    justify-content: space-between;
+}
+#abilities ul{
+    width: 400px;
+    height: 290px;
+    margin-top: 40px;
+    background-color: #e9585b;
+    padding: 30px;
+    border-radius: 5px;
+    list-style-type: square;
+}
+#abilities h3{
+    margin-left: 30px;
+    background-color: #e9585b;
+    border-radius: 5px;
+    height: 30px;
+    padding: 5px;
+}
+#rasengan{
+    border: 5px solid #e9585b;
+    border-radius: 5px;
+}
+span{
+    font-weight: bold;
+    color: blue;
+}
